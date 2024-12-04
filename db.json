@@ -1,1 +1,9 @@
-{ "posts": [{ "id": 1, "title": "Test Post" }] }
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Test Post",
+      "content": "This is a test post."
+    }
+  ]
+}

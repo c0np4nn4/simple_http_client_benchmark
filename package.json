@@ -1,18 +1,17 @@
 {
   "name": "http-client-benchmark",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/benchmark.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/benchmark.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
     "axios": "^1.7.8",
-    "json-server": "^1.0.0-beta.3",
+    "got": "^14.4.5",
+    "needle": "^3.3.1",
     "node-fetch": "^3.3.2",
-    "stats-lite": "^2.2.0"
+    "stats-lite": "^2.2.0",
+    "superagent": "^10.1.1"
   }
 }

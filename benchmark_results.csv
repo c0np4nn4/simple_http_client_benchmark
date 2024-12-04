@@ -1,0 +1,6 @@
+Library,Average (ms),Std Dev (ms)
+Superagent,0.57,0.46
+Needle,0.27,0.22
+Fetch,0.23,0.14
+Got,0.24,0.20
+Axios,0.41,0.56
